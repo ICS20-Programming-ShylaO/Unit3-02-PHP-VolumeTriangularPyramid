@@ -1,0 +1,44 @@
+/* Created by: Shyla Oommen
+* Created on: Mar 2023
+* This CSS file defines the style for index.html
+* ICS2O-Programming-Unit3-02-VolumeTriangularPyramid
+*/
+
+body {
+  background-color: #90e0ef;
+}
+
+h1, h3 {
+  background-color: #33415c;
+  text-align: center;
+  border: 2px solid #faedcd;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+p, form{
+  background-color: #33415c;
+  border: 2px solid #faedcd;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}
+
+#results {
+  background-color: #a9c3f5;
+  border: 2px solid #faedcd;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 115%;
+}

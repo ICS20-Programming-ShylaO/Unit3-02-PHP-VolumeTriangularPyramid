@@ -29,11 +29,11 @@
     </center>
 		<!-- form to get a, b, and height of trapezoid from the user -->
     <form action="./answers.php" method="post" target="results">
-      <label for="lblSideA">a (cm):</label>
+      <label for="lblSideA">Side A, a (cm):</label>
       <input type="text" id="side-a-tri-pyramid" placeholder="Enter Side a (cm)..." name="side-a-tri-pyramid"><br><br>
-      <label for="lblSideB">b (cm):</label>
+      <label for="lblSideB">Side B, b (cm):</label>
       <input type="text" id="side-b-tri-pyramid" placeholder="Enter Side b (cm)..." name="side-b-tri-pyramid"><br><br>
-      <label for="lblHeight">Height (cm):</label>
+      <label for="lblHeight">Height, h (cm):</label>
       <input type="text" id="height" placeholder="Enter the height (cm)..." name="height"><br><br>
 
       <input type="submit" value="Calculate Volume">
@@ -42,7 +42,7 @@
 			<!-- iframe for the results to show on the web page. -->
       <center>
 			<iframe id="results" name="results">	
-				The volume of the right triangular pyramid is " $volumeRounded" cm<sup>3</sup>.
+				The volume of the right triangular pyramid is. "$volumeRounded" . cm<sup>3</sup>.
 	    </iframe>
       </center>
 	</body>
