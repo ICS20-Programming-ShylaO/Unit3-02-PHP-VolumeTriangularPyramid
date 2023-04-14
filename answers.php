@@ -4,7 +4,7 @@
 	$sideB = $_POST['side-b-tri-pyramid'];
 	$height = $_POST['height'];
 
-	// calculate the area
+	// calculate the volume
 	$volume = (1/6 * $sideA * $sideB * $height);
   $volumeRounded = round($volume, 2);
 ?>
